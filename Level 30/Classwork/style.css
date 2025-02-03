@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+.paragraph {
+    color: blue;
+    background-color: red;
+}
+.centred {
+    text-align: center;
+    color: white;
+    background-color: #b4dd1e;
+    
+}

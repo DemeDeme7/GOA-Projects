@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1)ახსენით რაში გვჭირდება page layout ანუ <header>,<main> და <footer> თეგები -->
+<!-- საიტის სექციებად დაყოფა საჭიროა რომ ჩვენი გვერდი უფრო მიმზვიდელი იყოს მომხმარებლისთვის,ასევე ნავიგაციისთვის უფრო ადვილად გამოსაყენებელი. -->
+<!-- Head-ში იწერება HTML-ის საჭირო ინფორმაცია,მაგალითად Meta-ს ინფორმაციის შესანახად. -->
+<!-- Header-ი გამოიყენება ძირითადად ნავიგაციის ლინკების გამოსახასად. -->
+<!-- Main (Body)-ი გამოიყენება საიტის სხვა ყველა დანარჩენი ინფორმაციის და კოდის გამოსატანად. -->
+<!-- Footer-ი გამოიყენება საიტის ლეგალური და საკონტაქტო ინფორმაცების გამოსატანად,ასევე შეიძლება მოცემული იყოს რამდენიმე ნავიგაციის ლინკი და კომპანიის მისამართი(ები). -->
+
+
+<!-- 2)შექმენით სიტი სადაც იქნება 5 განსხვავებული ვიდეო და 5 განსხვავაებული აუდიო,კომენტარებით ასენით რაში გვჭირდება controls, autoplay ,muted, loop ატრიბუტები. -->
+
+<video controls>
+    <source src="./Trailer_1.mp4" type="video/mp4">
+</video><br><br>
+<video controls>
+    <source src="./Trailer_2.mp4" type="video/mp4">
+</video><br><br>
+<video controls>
+    <source src="./Trailer_3.mp4" type="video/mp4">
+</video><br><br>
+<video controls>
+    <source src="./Video_4.mp4" type="video/mp4">
+</video><br><br>
+<video controls>
+    <source src="./Video_5.mp4" type="video/mp4">
+</video><br><br>
+
+<audio controls>
+    <source src="./Song_1.mp3" type="audio/mp3">
+</audio><br><br>
+<audio controls>
+    <source src="./Song_2.mp3" type="audio/mp3">
+</audio><br><br>
+<audio controls>
+    <source src="./Song_3.mp3" type="audio/mp3">
+</audio><br><br>
+<audio controls>
+    <source src="./Song_4.mp3" type="audio/mp3">
+</audio><br><br>
+<audio controls>
+    <source src="./Song_5.mp3" type="audio/mp3">
+</audio><br><br>
+
+<!-- Controls ატრიბუტი გვჭირდება ვიდეოს/აუდიოს ან სხვა მედია ფაილის კონტროლის ფუნქციის მისანიჭებლად.-->
+<!-- Autoplay ატრიბუტი გამოიყენება იმისთვის,რომ საიტზე არსებული მედია გაეშვას პირდაპირ,მომხმარებლის დაწყების გარეშე.-->
+<!-- Muted ატრიბუტი გამოიყენება იმისთვის,რომ მედიის ხმა აუტომატურად იყოს გათიშული.-->
+<!-- Loop ატრიბუტი გამოიყენება იმისთვის,რომ მედია აუტომატურად განმეორდეს დასრულების შემდეგ.-->
+
+<!-- 3)შექმენით საიტი სადაც იქნება ცხოველების სახელები ქვევით მათი ფოტოები და ფოტოს ქვემოთ აუდიო თეგის საშუალებით ჩასვით ამ ცხოველების ხმები.-->
+<ul>
+    <li>
+        <p><b>კატა</b></p>
+        <img src="https://images.saymedia-content.com/.image/t_share/MTc0Mjg1ODg4NjEwNjQxNzg4/small-exotic-cats.jpg" width="300">
+        <audio controls><source src="./cat.mp3"></audio>
+    </li>
+    <li>
+        <p><b>ძაღლი</b></p>
+        <img src="https://th.bing.com/th/id/R.be910db951bafca7bbf5cd2c84600731?rik=0wzI7TFFeEPLJg&pid=ImgRaw&r=0" width="300">
+        <audio controls><source src="./dog.mp3"></audio>
+    </li>
+    <li>
+        <p><b>ქათამი</b></p>
+        <img src="https://th.bing.com/th/id/OIP.89sWcxoNIIKzJnXytHu6NgHaGw?rs=1&pid=ImgDetMain" width="300">
+        <audio controls><source src="./hen.mp3"></audio>
+    </li>
+</ul>
+
+<!-- 4)შექმენით საიტი სადაც ჩაამატებთ თქვენი 3 საყვარელი ანიმაციის ან ფილმის ვიდეოს (ტრეილერს) და გვერძე მიუწერეთ მოკლედ, რაზეა ფილმი ან ანიმაცია, ასევე დაამატეთ საყვარელიი მუსიკები საუდიო თეგით და გვერდზე მიუწერეთ მუსიკის სახელი. -->
+
+<ul>
+    <li>
+        <p><b>Drive</b></p>
+        <p>ფილმი იწყება რაიან გოსლინგის გამოჩენით,რომელშიც ის კრიმინალების არალეგალურ გადამყვანად მუშაობს.</p>
+        <video controls>
+            <source src="./Trailer_1.mp4"
+        </video>
+    </li>
+    <li>
+        <p><b>Fight Club</b></p>
+        <p>ქრონიკული უძილობით დატანჯული და საშინლად მოსაწყენი ცხოვრებიდან თავის დაღწევის უამრავი მცდელობის შემდეგ კლერკი შეხვდება ტაილერ დარდენს, ქარიზმატულ საპნის გამყიდველს.</p>
+        <video controls>
+            <source src="./Trailer_2.mp4"
+        </video>
+    </li>
+    <li>
+        <p><b>Cars 2</b></p>
+        <p>აქკუინს უწევს მსოფლიოში საუკეთესო მრბოლელებს გაეჯიბროს.ის და მისი მეგობარი გაეხვევიან ამბავში,რომლიდანაც თავის დაღწევა არც თუ ისე ადვილია.</p>
+        <video controls>
+            <source src="./Trailer_3.mp4"
+        </video>
+    </li>
+</ul>
+</body>
+</html>

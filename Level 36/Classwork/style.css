@@ -1,0 +1,49 @@
+/* 1) */
+.div1:hover {
+    background-color: red;
+    width: 350px;
+}
+.div2:hover {
+    background-color: blue;
+    width: 350px;
+}
+.div1 {
+    size: 300px;
+    background-color: blue;
+    transition: 2s;
+}
+.div2 {
+    size: 300px;
+    background-color: red;
+    transition: 2s;
+}
+/* 2) */
+.task2 {
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+.task2:link {
+    color:blue
+}
+/* 3) */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: red;
+}
+
+tr:nth-child(odd) {
+    background-color: blue;
+}
+
+tr:hover {
+    background-color: gray;
+}

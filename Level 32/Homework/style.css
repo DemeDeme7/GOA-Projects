@@ -1,0 +1,64 @@
+.hello {
+    text-decoration: underline dotted #027c02;
+    font-size: 30px;
+}
+
+.world {
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+.exclamation {
+    text-decoration: double overline #FF0000;
+    font-size: 30px;
+}
+
+.goal {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.oriented {
+    text-decoration: dotted line-through #027c02;
+    font-size: 30px;
+}
+
+.academy {
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+.is {
+    text-decoration: overline;
+}
+
+.the {
+    text-decoration: overline #027c02;
+    font-size: 30px;
+    color:#027c02
+}
+
+.best {
+    text-decoration: overline #C0C0C0;
+    font-size: 30px;
+    color:#C0C0C0
+}
+
+.one {
+    text-decoration: underline dotted #027c02;
+    font-size: 30px;
+}
+
+.tasktwo {
+    text-decoration: underline wavy #027c02;
+    color: #000;
+    font-size: 30px;
+}
+.taskthree {
+    text-decoration: underline overline dashed #FF0000;
+    font-size: 30px;
+}
+.taskfour {
+    text-decoration: line-through dashed #1900ff;
+    font-size: 30px;
+}

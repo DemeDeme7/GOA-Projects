@@ -1,0 +1,35 @@
+.red1 {
+    border: 3px solid;
+    border-radius:5px;
+    text-align: center;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    color: red;
+}
+.blue1 {
+    border: 3px solid;
+    border-radius:5px;
+    text-align: center;
+    margin: 200px;
+    
+    padding-bottom: 5;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    color: red;
+}
+.red1 {
+    border: 3px solid;
+    border-radius:5px;
+    text-align: center;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    color: red;
+}

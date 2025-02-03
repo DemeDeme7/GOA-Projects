@@ -1,0 +1,78 @@
+<!-- 1) -->
+ <!-- Required-ნიშნავს აუცილებელს,გამოიყენება ძირითადად ფორმებში ინფორმაციის შეყვანის იძულებას.
+ Disabled-ნიშნავს გაუქმებულს,გამოიყენება Drop down მენიუ-ს არჩევანის/არჩევნების დაბლოკვას/გაუქმებას.
+ Name-ნიშნავს სახელს,გამოიყენება Input-ის სახელის მისანიჭებლად/გამოსახასად.
+ For-ნიშნავს (რაღაც)ისთვის,ძირითადად გამოიყენება Label(იარლიყის) ტიპის/დანიშნულების მისანიჭებლად.
+ ID(Identification)-ნიშნავს იდენტიფიკაციას,გამოიყენება რაღაცის უნიკალური მნიშვნელობის მისანიჭებლად.
+ Type-ნიშნავს ტიპს,ამ შემთხვევაში Input ტეგით ფორმის ჩასაწერი ველის ტიპის ასარჩევად,მაგალითად <input for="tel">,<input for="email"> და ა.შ. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form method="post">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" required placeholder="First Name"><br><br>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required placeholder="Last Name"><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="E-mail"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Password"><br><br>
+        
+        <label for="country">Select your country:</label>
+        <select id="country" name="country" required>
+            <option value="georgia">Georgia</option>
+            <option value="france">France</option>
+            <option value="spain">Spain</option>
+            <option value="portugal">Portugal</option>
+            <option value="serbia">Serbia</option>
+            <option value="finland">Finland</option>
+            <option value="germany">Germany</option>
+            <option value="country" disabled selected>Please select your country:</option>           
+        </select><br><br>
+        <input type="submit">
+    </form>
+
+    <p><b>ჩემი საყვარელი იუთუბერები:</b></p>
+    <ul>
+                <li>
+                <p><b>NDL</b></p>
+                <p>NDL-ი არის იუთუბერული ჯგუფი,რომელიც იღებს სოც.ექსპერიმენტებს და ძირითადად მუშაობენ უცხო ხალხთან ერთად.</p>
+                <p>მათი ერთ-ერთი ვიდეო:</p>
+                <video width="400" controls>
+                    <source src="./Video 2.mp4" type="video/mp4">
+                </video>
+                <button><a href="https://www.youtube.com/@NDL">არხის ლინკი</a></button>
+                </li>
+
+                <li>
+                <p><b>GOTA</b></p>
+                <p>GOTA არის ქართველი იუთუბერი,რომელიც ცნობილია მისი ექსტრემალური ვიდეოებით(თავგადასავლებით).</p>
+                <p>მისი ერთ-ერთი ვიდეო:</p>
+                <video width="400" controls>
+                    <source src="./Video 1.mp4" type="video/mp4">
+                </video>
+                <button><a href="https://www.youtube.com/@gota">არხის ლინკი</a></button>
+                </li>
+
+                <li>
+                <p><b>H1TA</b></p>
+                <p>H1TA(AKA HITA) არის ასევე ქართველი იუთუბერი,რომელიც ცნობილია მისი აზროვნული მოსაზრებებით და ხარისხიანი კონტენტით.</p>
+                <p>მისი ერთ-ერთი ვიდეო:</p>
+                <video width="400" controls>
+                    <source src="./Video 3.mp4" type="video/mp4">
+                </video>
+                <button><a href="https://www.youtube.com/@H1Ta">არხის ლინკი</a></button>
+                </li>
+    </ul> 
+
+</body>
+</html>
