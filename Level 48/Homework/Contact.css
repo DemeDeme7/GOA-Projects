@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    padding-top: 70px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px 0;
+}
+
+button {
+    background-color: red;
+    border: 2px solid;
+    height: 30px;
+    margin: 0 10px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#hr1 {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: red;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-family: "Inter", serif;
+    font-size: 40px;
+}
+
+.choice {
+    color: red;
+    text-align: center;
+    font-family: "Inter", serif;
+    font-size: 100px;
+}
+
+.info {
+    color: red;
+    text-align: center;
+    font-family: "Inter", serif;
+    font-size: 20px;
+}
+
+.button3 {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.form {
+    border: solid red;
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+label {
+    font-family: "Inter", serif;
+}
+
+.name {
+    background-color: black;
+    color: red;
+    border: solid red 2px;
+    border-radius: 10px;
+}
+
+.surname {
+    background-color: black;
+    color: red;
+    border: solid red 2px;
+    border-radius: 10px;
+}
+
+.phone {
+    background-color: black;
+    color: red;
+    border: solid red 2px;
+    border-radius: 10px;
+}
+
+.submit {
+    border: none;
+    background-color: black;
+    color: red;
+    width: 90%;
+    margin-top: 10px;
+}

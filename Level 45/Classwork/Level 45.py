@@ -23,3 +23,4 @@ def multiple_of_index(arr):
             li.append(arr[i])
 
     return li
+# 6)
