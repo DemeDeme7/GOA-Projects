@@ -1,0 +1,34 @@
+.task1 {
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .task1 {
+      width: 90%;
+      padding: 12px;
+    }
+}
+.task1 img {
+    max-width: 250px;
+  }
+
+  .task1 p {
+    font-size: 14px;
+  }
+/* Task 2 */
+  @media (max-width: 900px) {
+    .task2 {
+      width: 40%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .task2 {
+      width: 20%;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .task2 {
+      width: 10%;
+    }
+  }

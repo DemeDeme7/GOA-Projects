@@ -1,0 +1,22 @@
+div {
+width: 75%
+}
+
+/* რესპონსივი */
+@media (max-width: 1024px) {
+    div {
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    div {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    div {
+        width: 95%;
+    }
+}

@@ -12,7 +12,7 @@ fast_food = set()
 fast_food = {"Apple", "Carrot", "Salad", "Chicken"}
 print(fast_food)
 # 5) შექმენით ფუნქცია, რომელიც არგუმენტად იღებს სიას, და აბრუნებს იგივე სიას, მაგრამ დუპლიკატების გარეშე. hint: გააკეთეთ set-ის საშუალებით (output-ში ელემენტების თანმიმდევრობას მნიშვნელობა არ აქვს)
-def duplicates_remove(ilist):
-    return list(set(ilist))
+def duplicates_remove(list1):
+    return list(set(list1))
 
 

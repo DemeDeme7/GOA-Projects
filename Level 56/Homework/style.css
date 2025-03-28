@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(71, 155, 254);
+    border-radius: 50%;
+    transition: all 2s ease-in-out;
+}
+
+.container:hover .circle {
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+}
+.task2 {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-color: blue;
+}
+.task2:hover {
+    transition: 2s;
+    background-color: red;
+}
+.uni {
+    margin: auto;
+}
+.redd {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.blackd {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.redd:hover {
+    transform: rotate(-45deg);
+    transition: 900ms;
+}
+.blackd:hover {
+    transform: rotate(-45deg);
+    transition: 900ms;
+}
+
+img:hover {
+    width: 200px;
+    height: 200px;
+    transform: translate(150px, -200px);
+    border-radius: 50%;
+    margin: 15%;
+}
